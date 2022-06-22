@@ -9,7 +9,7 @@ components.html('<html><body><h1 style="color:#1C1F2F;text-align: center;">Covid
 
 #Loading dataset
 
-covid_df=pd.read_csv('D:\\datasets\\Covid.csv')
+covid_df=pd.read_csv('Covid.csv')
 graph_df=pd.DataFrame({'graph':['Pie Chart','Bar Chart']})
 
 st.sidebar.header('Select what to display')
